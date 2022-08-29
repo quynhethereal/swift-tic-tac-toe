@@ -8,6 +8,8 @@
  Created  date: dd/mm/yyyy (e.g. 19/08/2022)
  Last modified: dd/mm/yyyy (e.g. 28/08/2022)
  Acknowledgement: Acknowledge the resources that you use here.
+ 
+ Game logic: Contains consultation from github.com/marty-suzuki/TicTacToe-SwiftUI.
  */
 
 import SwiftUI
