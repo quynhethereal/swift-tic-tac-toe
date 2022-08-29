@@ -235,26 +235,6 @@ struct GameGridView: View {
         return false
     }
     
-//    func determineMoves(symbol: String) -> Int{
-//        let symbol = "O"
-//
-//        let computerMoves = moves.compactMap {$0}.filter { $0.symbol == symbol }.map { $0.index }
-//
-//        let winMoves: Set<Set<Int>> =  [[0,1,2], [3,4,5], [6,7,8], [0,3,6], [1,4,7], [2,5,8], [0,4,8], [2,4,6]]
-//
-//        for winMove in winMoves {
-//            let result = winMove.subtracting(computerMoves)
-//
-//            if result.count == 1 {
-//                if moves[result.first!] == nil {
-//                    return result.first!
-//                }
-//            }
-//        }
-////
-//        print(computerMoves)
-//    }
-    
     func alertMessage() -> String {
         if winner == currentPlayer.name {
             return "You have won!"
